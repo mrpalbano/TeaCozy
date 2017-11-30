@@ -56,3 +56,14 @@
 .locations img {
   height: 500px;
 }
+
+
+.contact {
+  text-align: center;
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  padding-left: 20px;
+}
