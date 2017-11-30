@@ -9,15 +9,19 @@
 
 .header {
   position: fixed;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .header nav {
   text-decoration: underline;
+  float: right;
 }
 
 .header img {
   height: 50px;
   width: auto;
+  float: left;
   padding-left: 10px;
 }
 
