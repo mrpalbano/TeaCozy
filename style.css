@@ -1,13 +1,12 @@
 * {
   font-family: Helvetica;
-  font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
   margin: auto;
 }
 
-.header {
+.heading {
   position: fixed;
   display: flex;
   justify-content: center;
@@ -16,12 +15,12 @@
   height: 69px;
 }
 
-.header nav {
+.heading nav {
   text-decoration: underline;
-  float: right;
+  text-align: right;
 }
 
-.header img {
+.heading img {
   height: 50px;
   width: auto;
   float: left;
@@ -31,9 +30,11 @@
 .main {
   height: 700px;
   width: 1200px;
-  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
-padding-top: 70px;
+padding-top: 69px;
 }
 
 .main h2, h4 {
