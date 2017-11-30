@@ -6,3 +6,16 @@
   opacity: 0.9;
   margin: auto;
 }
+
+.header {
+  position: fixed;
+}
+
+.header nav {
+  text-decoration: underline;
+}
+
+.header img {
+  height: 50px;
+  width: auto;
+}
