@@ -9,8 +9,11 @@
 
 .header {
   position: fixed;
-  display: inline-block;
-  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 1px solid seashell;
+  height: 69px;
 }
 
 .header nav {
