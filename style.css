@@ -32,6 +32,8 @@
   height: 700px;
   width: 1200px;
   align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+padding-top: 70px;
 }
 
 .main h2, h4 {
