@@ -29,4 +29,22 @@
 
 .main h2, h4 {
   margin: inherit;
+  text-align: center;
+}
+
+.updates {
+  text-align: center;
+}
+
+.image-content {
+  display: inline-block;
+}
+
+.image-content img {
+  height: 200px;
+  width: 300px;
+}
+
+.image-content h4 {
+  position: relative;
 }
