@@ -21,9 +21,8 @@ position: fixed;
 }
 
 .heading nav {
-display: flex;
-justify-content: flex-end;
 flex-grow: 1;
+text-align: right;
 }
 
 .heading img {
