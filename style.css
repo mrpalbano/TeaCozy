@@ -43,11 +43,16 @@ padding-top: 69px;
 }
 
 .updates {
-  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .image-content {
-  display: inline-block;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .image-content img {
