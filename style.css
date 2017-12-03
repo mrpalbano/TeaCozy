@@ -21,8 +21,8 @@ position: fixed;
 }
 
 .heading nav {
-flex-grow: 1;
-text-align: right;
+  flex-grow: 1;
+  text-align: right;
 }
 
 .heading img {
@@ -37,13 +37,13 @@ text-align: right;
   justify-content: center;
   flex-wrap: wrap;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-padding-top: 69px;
+  padding-top: 69px;
 }
 
 .main h2, h4 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background-color: black;
+  width: 100%;
+  margin: auto;
 }
 
 .updates {
