@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-flow: row;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   border-bottom: 1px solid seashell;
   height: 69px;
 }
@@ -34,7 +35,7 @@ flex-grow: 1;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
 padding-top: 69px;
 }
 
