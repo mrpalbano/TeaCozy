@@ -1,4 +1,4 @@
-* {
+body {
   font-family: Helvetica;
   color: seashell;
   background-color: black;
@@ -16,9 +16,9 @@
 }
 
 .heading nav {
-  text-decoration: underline;
-  align-items: flex-end;
-  display: flex;
+text-align: right;
+display: flex;
+flex-grow: 1;
 }
 
 .heading img {
