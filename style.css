@@ -7,7 +7,11 @@ body {
 }
 
 .heading {
-  position: fixed;
+width: 100%;
+z-index: 1;
+background-color: black;
+align-items: center;
+position: fixed;
   display: flex;
   flex-direction: row;
   flex-flow: row;
@@ -17,15 +21,13 @@ body {
 }
 
 .heading nav {
-text-align: right;
 display: flex;
+justify-content: flex-end;
 flex-grow: 1;
 }
 
 .heading img {
   height: 50px;
-  width: auto;
-  float: left;
   padding-left: 10px;
 }
 
@@ -40,8 +42,9 @@ padding-top: 69px;
 }
 
 .main h2, h4 {
-  margin: inherit;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .updates {
