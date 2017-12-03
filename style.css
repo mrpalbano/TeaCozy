@@ -77,6 +77,12 @@ h2, h3, h4 {
     padding: 5px;
 }
 
+.item img {
+    height: 200px;
+    display: block;
+    margin: 10px;
+}
+
 #locations {
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     height: 500px;
@@ -90,6 +96,17 @@ h2, h3, h4 {
 
 .flex-container.locations {
     padding-top: 5px;
+}
+
+.location {
+    opacity: 1;
+    background-color: black;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    margin: 5px 20px;
 }
 
 .flex-container {
