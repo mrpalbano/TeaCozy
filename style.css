@@ -8,15 +8,17 @@
 
 .heading {
   position: fixed;
-  display: inline-block;
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
   border-bottom: 1px solid seashell;
   height: 69px;
 }
 
 .heading nav {
   text-decoration: underline;
-  text-align: right;
+  align-items: flex-end;
+  display: flex;
 }
 
 .heading img {
