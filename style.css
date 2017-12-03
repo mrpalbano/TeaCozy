@@ -7,6 +7,10 @@ body {
     margin: 0px;
 }
 
+div {
+    display: block;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
